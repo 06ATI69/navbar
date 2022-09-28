@@ -1,0 +1,45 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d6e2f5;
+}
+
+nav {
+ background: #293d3d;
+}
+
+nav li {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #669999;
+  display: block;
+}
+nav a:hover {
+  background-color: #fff;
+  transition: background-color .3s ease-in-out;
+}
+
+nav a.active {
+  background-color: #669999;
+  color: #eee;
+}
+
+@media (min-width: 600px) {
+   nav li {
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem; 
+  }
+}
